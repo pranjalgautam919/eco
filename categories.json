@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Electronics",
+      "description": "Electronic devices",
+      "status": "active"
+    },
+    {
+      "name": "Shoes",
+      "description": "Footwear",
+      "status": "active"
+    },
+    {
+      "name": "Gaming",
+      "description": "Gaming consoles and accessories",
+      "status": "active"
+    }
+  ]

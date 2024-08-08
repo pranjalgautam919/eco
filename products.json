@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Apple iPhone 13",
+      "price": 999,
+      "quantity": 100,
+      "image": "https://example.com/iphone13.jpg",
+      "status": "active",
+      "category": "Electronics"
+    },
+    {
+      "name": "Samsung Galaxy S22",
+      "price": 899,
+      "quantity": 50,
+      "image": "https://example.com/s22.jpg",
+      "status": "active",
+      "category": "Electronics"
+    },
+    {
+      "name": "Nike Air Max 270",
+      "price": 129,
+      "quantity": 200,
+      "image": "https://example.com/nikeairmax270.jpg",
+      "status": "active",
+      "category": "Shoes"
+    },
+    {
+      "name": "Adidas Superstar",
+      "price": 99,
+      "quantity": 150,
+      "image": "https://example.com/adidassuperstar.jpg",
+      "status": "active",
+      "category": "Shoes"
+    },
+    {
+      "name": "Sony PlayStation 5",
+      "price": 499,
+      "quantity": 50,
+      "image": "https://example.com/ps5.jpg",
+      "status": "active",
+      "category": "Gaming"
+    }
+  ]
