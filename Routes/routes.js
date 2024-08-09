@@ -1,0 +1,18 @@
+// const productsController = require('./productsController.js')
+// app.get('/api/products', productsController.fetch)
+// app.post('/api/products', productsController.create)
+// app.get('/api/categories', categoryController.fetch)
+
+const productsController = require('../Controller/productsController.js')
+const categoryController = require('../Controller/categoryController.js')
+const categoryStatusController = require('../Controller/categoryStatusController.js')
+const productStatusController = require('../Controller/productStatusController.js')
+
+app.get('/api/products', productsController.fetch)
+app.post('/api/products', productsController.create)
+app.get('/api/categories', categoryController.fetch)
+app.post('/api/categories',categoryController.create)
+app.put('/api/categories/:id/activate', categoryStatusController.activate)
+app.put('/api/categories/:id/deactivate', categoryStatusController.deactivate)
+app.put('/api/products/:id/activate', productStatusController.activate)
+app.put('/api/products/:id/deactivate', productStatusController.deactivate)
